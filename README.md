@@ -25,7 +25,6 @@ The library contains several functions that you may find useful in your future p
 - ft_memset: Sets a block of memory to a specific value.
 - ft_bzero: Sets a block of memory to zero.
 - ft_memcpy: Copies a block of memory from one location to another.
-- ft_memccpy: Copies a block of memory from one location to another, stopping if a certain character is found.
 - ft_memmove: Copies a block of memory from one location to another, handling overlapping blocks correctly.
 - ft_memchr: Searches a block of memory for a specific character.
 - ft_memcmp: Compares two blocks of memory.
@@ -45,7 +44,26 @@ The library contains several functions that you may find useful in your future p
 - ft_toupper: Converts a lowercase character to uppercase.
 - ft_tolower: Converts an uppercase character to lowercase.
 - ft_strdup: Duplicates a string.
-In addition to these functions, the library also contains some additional functions that you may find useful, such as functions for working with linked lists.
+- ft_substr: Allocates and returns a substring from the string s.
+- ft_strjoin: Allocates and returns a new string, which is the result of the concatenation of s1 and s2.
+- ft_strtrim: Allocates and returns a copy of s1 with the characters specified in set removed from the beginning and the end of the string.
+- ft_split: Allocates and returns an array of strings obtained by splitting s using the character c as a delimiter.
+- ft_itoa: Allocates and returns a string representing the integer received as an argument.
+- ft_strmapi: Applies the function f to each character of the string s to create a new string with the modified characters.
+- ft_striteri: Applies the function f on each character of the string passed as argument, passing its index as first argument.
+- ft_putchar_fd: Outputs the character c to the given file descriptor.
+- ft_putstr_fd: Outputs the string s to the given file descriptor.
+- ft_putendl_fd: Outputs the string s to the given file descriptor followed by a newline.
+- ft_putnbr_fd: Outputs the integer n to the given file descriptor.
+- ft_lstnew: Allocates and returns a new node.
+- ft_lstadd_front: Adds a new node at the beginning of the list.
+- ft_lstsize: Counts the number of nodes in a list.
+- ft_lstlast: Returns the last node of the list.
+- ft_lstadd_back: Adds a new node at the end of the list.
+- ft_lstdelone: Takes a node as parameter and frees the memory of the node's content.
+- ft_lstclear: Deletes and frees the given node and every successor of that node.
+- ft_lstiter: Iterates the list and applies a function to the content of each node.
+- ft_lstmap: Iterates the list and applies a function to the content of each node, creating a new list with the modified content.
 
 # Conclusion:
 
